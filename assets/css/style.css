@@ -1,0 +1,113 @@
+@font-face{
+    font-family: 'Karla';
+    src: url("../fonts/Karla-VariableFont_wght.ttf")
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Karla';
+    font-size: 10px;
+    background-color: rgb(87, 98, 133);
+}
+
+header h1{
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+
+main form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    width: 30vw;
+} 
+
+main form #searchContent{
+    padding: 1.7rem;
+    border-radius: 7px;
+    margin-bottom: 2rem;
+    -webkit-box-shadow: 5px 5px 15px 5px rgb(40, 64, 103); 
+    box-shadow: 5px 5px 15px 5px rgb(40, 64, 103);
+}
+
+main form #lang{
+    padding: 0.5rem;
+    border-radius: 7px;
+    width:max-content;
+    align-self: center;
+    margin-bottom: 3rem;
+}
+
+main form #button{
+    padding: 0.7rem;
+    border-radius: 7px;
+    border: solid 1px rgb(40, 64, 103);
+    align-self: center;
+    width: 16vw;
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: rgb(41, 51, 68) ;
+    -webkit-box-shadow: 5px 5px 15px 5px rgb(40, 64, 103); 
+    box-shadow: 5px 5px 15px 5px rgb(40, 64, 103);
+    font-weight: lighter;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+main section div{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0;
+    background-color: rgb(169, 181, 200);
+    width: 80vw;
+    padding: 2% 5% 2% 2%;
+    border-radius: 3px;
+}
+
+main section div h2{
+    font-size: 2.3rem;
+    padding-bottom: 1rem;
+}
+
+main section div p{
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+    padding: 0.5% 3% 0.5% 3%
+}
+
+main section div img{
+    width: 25vw;
+    margin-bottom: -3%;
+    border-radius: 3px;
+}
+
+main section div a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    border: solid 1px rgb(41, 51, 68);
+    border-radius: 7px;
+    padding: 1rem;
+    background-color: rgb(41, 51, 68);
+    color: #ffffff;
+    width: fit-content;
+    align-self: flex-end ;
+}
+
+#imgArticle{
+    display: flex;
+}
